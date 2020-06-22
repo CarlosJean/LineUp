@@ -26,7 +26,7 @@ export default class Layout extends Component{
                 <View style={LayoutStyles.body}>
                     <NavigationContainer>
                         <this.Stack.Navigator>
-                            <this.Stack.Screen name="Home" component={Home}  options={new Home().homeOptions()}></this.Stack.Screen>
+                            <this.Stack.Screen name="Home" component={Home}  options={new Home().options()}></this.Stack.Screen>
                         </this.Stack.Navigator>
                     </NavigationContainer>
                 </View> 

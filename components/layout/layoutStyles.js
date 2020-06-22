@@ -15,7 +15,7 @@ import {StyleSheet} from 'react-native';
             alignItems: 'flex-end'
         },
         body: {
-            flex:10,
+            flex:1,
             backgroundColor: "white"
         },
         appName:{
